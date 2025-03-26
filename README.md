@@ -142,7 +142,7 @@ En esta ocasión vamos utilizar la segunda opción, crearemos un escenario multi
 > cd docker-compose-lamp/
 > cp sample.env .env
 > // modify sample.env as needed
-> docker compose up -d
+> docker-compose up -d
 > // visit localhost
 > ~~~
 Veamos:
@@ -242,7 +242,10 @@ docker-compose up -d
 ~~~
 
 Y si todo va bien, tendremos nuestro escenario levantado:
-![](images/composeup.png)
+
+<div align="center">
+  <img src="/Imagenes/13.png" width="500">
+</div>
 
 
 > Para 
