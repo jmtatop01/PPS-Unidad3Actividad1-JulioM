@@ -59,11 +59,11 @@ Para ello tan sólo tenemos que realizar los siguientes pasos:
 >>
 >---
 >
->> **bWAPP**. A esta máquina accedemos a través del puerto **8002**. 
+>> **bWAPP**. A esta máquina accedemos a través del puerto **8001**. 
 >>
 >> La primera vez que accedamos nos dará un error ya que no tiene creada la BBDD.
 >>
->> Por lo tanto accedemos a crearla: <http://localhost:8002/install.php>
+>> Por lo tanto accedemos a crearla: <http://localhost:8001/install.php>
 
 <div align="center">
   <img src="/Imagenes/6.png" width="500">
@@ -88,20 +88,39 @@ Para ello tan sólo tenemos que realizar los siguientes pasos:
 >
 >> **OWASP Multillidae ii**. A esta máquina accedemos a través del puerto **80** o del **8080**. 
 >>
->> Por lo tanto accedemos a ella en el enlace: <http://localhost>. ![](images/multill1.png)
+>> Por lo tanto accedemos a ella en el enlace: <http://localhost>. 
 >>
 >> Al igual que en los casos anteriores, el primer paso será crear la Base de Datos. 
 >>
->> ![](images/multill12.png)
+
+<div align="center">
+  <img src="/Imagenes/9.png" width="500">
+</div>
+
 >>
 >> En este caso no necesitamos usuario y contraseña para acceder.
 >> 
+
+<div align="center">
+  <img src="/Imagenes/10.png" width="500">
+</div>
+
+>>
 >> En multillidae tenemos además del servicio de BBDD otros servicios creados:
 >> - Servicio PhpAdmin para acceder a las BBDD. Accedemos desde <http://localhost:81>. 
->> ![](images/multill3.png)
+>> 
+
+<div align="center">
+  <img src="/Imagenes/11.png" width="500">
+</div>
+
 >>
 >> - Servicio PhpLdapAdmin para acceder al servicio de directorio LDAP. Accedemos desde <http://localhost:82>. 
->> ![](images/multill4.png)
+>>
+
+<div align="center">
+  <img src="/Imagenes/12.png" width="500">
+</div>
 
 
 ## Entorno de pruebas
