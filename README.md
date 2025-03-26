@@ -61,18 +61,29 @@ Para ello tan sólo tenemos que realizar los siguientes pasos:
 >
 >> **bWAPP**. A esta máquina accedemos a través del puerto **8002**. 
 >>
->> La primera vez que accedamos nos dará un error ya que no tiene creada la BBDD. ![](images/bwapp1.png)
+>> La primera vez que accedamos nos dará un error ya que no tiene creada la BBDD.
 >>
->> Por lo tanto accedemos a crearla: <http://localhost:8002/install.php> ![](images/bwapp2.png)
+>> Por lo tanto accedemos a crearla: <http://localhost:8002/install.php>
+
+<div align="center">
+  <img src="/Imagenes/6.png" width="500">
+</div>
+
 >>
 >> Y ya podremos acceder pulsando en login o creando un nuevo usuario. Las credenciales de acceso por defecto son usuario: bee, contraseña: bug y podemos seleccionar en este momento el **nivel de seguridad** que queremos que tenga la máquina.
 >>
->> ![](images/bwapp3.png)
->> ![](images/bwapp4.png)
->>
+
+<div align="center">
+  <img src="/Imagenes/7.png" width="500">
+</div>
+
 >> Y después de acceder podremos realizar un gran número de entrenamientos de explotación de vulnerabilidades.
 >>
->> ![](images/bwapp5.png)
+
+<div align="center">
+  <img src="/Imagenes/8.png" width="500">
+</div>
+
 >---
 >
 >> **OWASP Multillidae ii**. A esta máquina accedemos a través del puerto **80** o del **8080**. 
